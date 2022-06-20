@@ -1,0 +1,86 @@
+body {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+
+.main {
+  top: 0;
+  bottom: 0;
+  right: 10%;
+  left: 10%;
+  position: absolute;
+}
+
+.cube1 {
+  align-self: center;
+  background-color: purple;
+  width: 100%;
+  height: 300px;
+  background-image: url(/image/background_jordan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px black solid;
+  border-radius: 16px;
+}
+.cube1 #basket {
+  background-color: white;
+}
+.cube1 img {
+  display: flex;
+  width: 150px;
+  height: auto;
+  border-radius: 16px;
+}
+
+.cube2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border: 2px black solid;
+  border-radius: 12px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cube2 #cube3 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+}
+.cube2 #cube4 {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 50%;
+}
+
+.cube5 {
+  background-color: blue;
+  width: 100%;
+  height: 100px;
+  background-image: url(/image/background_jordan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px black solid;
+  border-radius: 16px;
+  margin-top: 2%;
+}
+
+.trophee #trophee_image {
+  justify-self: space-between;
+}
+.trophee #trophee_image img {
+  width: 50px;
+  height: auto;
+}
+
+#titretrophee {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
